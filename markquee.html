@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .h1{color: yellow}
+        .h2{color:red}
+    </style>
 </head>
 <body>
-    <marquee>This text will from right to left</marquee>
-    <marquee direction="right">This text will scroll from bottom to top</marquee>
-    <marquee
-     direction="down"
-     width="200"
-     height="200"
-     class="outlined"
-     behavior="alternate">
-     Hi i am Yogesh
-    </marquee>
+    <marquee class="h1"
+      direction="right"
+     behavior="alternate"
+     width="1300"
+     height="60"
+     loop="2"><h1>This text will from right to left</h1></marquee><br>
+     <marquee class="h2" 
+     behavior="alternate"
+      direction="right"
+      width="1300"
+      height="50"
+      loop="2"><h2>This text will from left to right</h2></marquee><br>
+    <marquee class="h3"
+    behavior="alternate" 
+    direction="right"
+    width="1300"
+    height="40"
+    loop="2"><h3>This text will from right to left</h3></marquee>
 </body>
 </html>
